@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Notebook 1.unity
     guid: f85940826df5684458214ac7658b4364
+  - enabled: 1
+    path: Assets/Scenes/DukieTest.unity
+    guid: 5661a3d3a39319e40a7f4d6032d5a95b
   m_configObjects: {}

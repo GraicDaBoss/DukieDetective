@@ -5,13 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class Notebook1 : MonoBehaviour
 {
-    public string sceneToLoad;
-    public void OnTriggerEnter2D(Collider2D other)
+    public int sceneBuildIndex;
+
+    // Level move zoned enter, if collider is a player
+    // Move game to another scene
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && !other.isTrigger)
+        print("Trigger Entered");
+
+        // Could use other.GetComponent<Player>() to see if the game object has a Player component
+        // Tags work too. Maybe some players have different script components?
+        if (other.tag == "Player")
         {
-            SceneManager.LoadScene(sceneToLoad); 
+            // Player entered, so move level
+            print("Switching Scene to " + sceneBuildIndex);
+            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
         }
     }
-    
 }
