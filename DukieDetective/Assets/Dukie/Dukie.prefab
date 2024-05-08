@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 3529487239719319879}
   - component: {fileID: 4512045223239347092}
   - component: {fileID: 8012965976297369337}
-  - component: {fileID: 3248402719876286295}
   - component: {fileID: 1776576347326120717}
+  - component: {fileID: 4160010860477297248}
   m_Layer: 0
   m_Name: Dukie
   m_TagString: Player
@@ -91,7 +91,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &4159339356330512054
 Animator:
   serializedVersion: 5
@@ -201,7 +201,7 @@ MonoBehaviour:
   movementSpeed: 120
   rb: {fileID: 4512045223239347092}
   xvel: 0
---- !u!61 &3248402719876286295
+--- !u!61 &1776576347326120717
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,10 +233,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0077388287, y: 0.023218155}
+  m_Offset: {x: -0.05739498, y: 1.1648159}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 5.12, y: 5.12}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -244,9 +244,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0924287, y: 4.0210915}
+  m_Size: {x: 1.3319387, y: 0.4713707}
   m_EdgeRadius: 0
---- !u!61 &1776576347326120717
+--- !u!61 &4160010860477297248
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -278,10 +278,10 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.05739498, y: -1.2626848}
+  m_Offset: {x: 0.019417524, y: 2.5432987}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 5.12, y: 5.12}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -289,5 +289,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3319387, y: 0.6432018}
+  m_Size: {x: 2.6640048, y: 3.5406456}
   m_EdgeRadius: 0
