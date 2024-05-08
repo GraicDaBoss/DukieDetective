@@ -10,7 +10,7 @@ public class VictimTalk1 : MonoBehaviour
     private bool isInsideTrigger;
     public GameObject TalkPanel, PlayerCapsule, Camera;
     public TMP_Text TalkText;
-    private string[] dialogues = { "", "Hey, are you a detective? You sure look like one..", "Listen, I have an important job for you", "On Thursday the 12th of June, I was MURDERED.." };
+    private string[] dialogues = { "", "Hey, are you a detective? You sure look like one..", "Listen, I have an important job for you...", "On Thursday the 12th of June, I was MURDERED..", "I mean, you should be able to judge that by now. Im the outline of a dead body.", "Anyway, a mysterious person followed me home that night, and I was struck to my demise.", "The useless detective who owns this book hasn't solved it yet, so its up to only you"!, "Follow the footsteps along the page, I'll meet you at the next chapter", "BTW, this is a sketch of the very park where it happened..."};
 
     // Start is called before the first frame update
     void Start()
