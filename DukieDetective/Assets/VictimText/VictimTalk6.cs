@@ -8,13 +8,14 @@ public class VictimTalk6 : MonoBehaviour
 {
     public UnityEvent enteredTrigger, exitedTrigger;
     private bool isInsideTrigger;
-    public GameObject TalkPanel, PlayerCapsule, Camera;
+    public GameObject TalkPanel, PlayerCapsule, Camera, LockedBook;
     public TMP_Text TalkText;
     private string[] dialogues = { "", "This is it now..... Dukie...", "I appreciate all your hard work. You really are a hero.", "Its time to bring your evidence back to the case file", "If you need to go back and review the evidence, do so now.", "I'll miss you Dukie, this has been fun.", "May your legacy live on.", "Good luck Detective!!" };
 
     // Start is called before the first frame update
     void Start()
     {
+        LockedBook.SetActive(true); 
         TalkPanel.SetActive(false);
         Camera.SetActive(false);
         PlayerCapsule.SetActive(true);
@@ -49,6 +50,7 @@ public class VictimTalk6 : MonoBehaviour
         TalkPanel.SetActive(false);
         Camera.SetActive(false);
         PlayerCapsule.SetActive(true);
+        LockedBook.SetActive(false);
     }
 
     void StartDialogue()
@@ -56,6 +58,7 @@ public class VictimTalk6 : MonoBehaviour
         TalkPanel.SetActive(true);
         Camera.SetActive(true);
         PlayerCapsule.SetActive(false);
+        LockedBook.SetActive(true);
     }
 
     void OnTriggerEnter2D(Collider2D other)
