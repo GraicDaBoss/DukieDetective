@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,8 +5,8 @@ public class NewBehaviourScript : MonoBehaviour
 {
     public bool isCorrect = false;
     public QuizManager quizManager;
-    
-    
+
+
     public void Answer()
     {
         if (isCorrect)
@@ -20,7 +19,7 @@ public class NewBehaviourScript : MonoBehaviour
         else
         {
             Debug.Log("Wrong Answer");
-            quizManager.correct();
+            quizManager.wrong();
         }
     }
 }
