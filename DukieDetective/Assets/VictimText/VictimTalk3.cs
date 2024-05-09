@@ -10,7 +10,7 @@ public class VictimTalk3 : MonoBehaviour
     private bool isInsideTrigger;
     public GameObject TalkPanel, PlayerCapsule, Camera;
     public TMP_Text TalkText;
-    private string[] dialogues = { "", "You ready to move on, have you the first piece of evidence? Perfect.", "In this section, police disovered some handprints and labelled them to who they belong...", "Something I remember about my killer, they had only 4 fingers!! Maybe this would show up on the print...", "Again, make sure you are retaining all the helpful info you can collect.","Ensure you know whos print belongs to who!" };
+    private string[] dialogues = { "", "You ready to move on, have you the first piece of evidence? Perfect.", "In this section, police disovered some handprints and labelled them to who they belong...", "Something I remember about my killer, his hands were different!! Maybe this would show up on the print...", "Again, make sure you are retaining all the helpful info you can collect.","Ensure you know whos print belongs to who!" };
 
     // Start is called before the first frame update
     void Start()
