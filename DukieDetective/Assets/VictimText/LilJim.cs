@@ -10,7 +10,7 @@ public class LilJim : MonoBehaviour
     private bool isInsideTrigger;
     public GameObject TalkPanel, PlayerCapsule, Camera;
     public TMP_Text TalkText;
-    private string[] dialogues = { "", "Do I know who committed the crime?", "Yeah it was my Dad!", "What does he look like?", "Well, he has a *blank*","Oh wait, Daddy told me not to tell anyone..."};
+    private string[] dialogues = { "", "Do I know who committed the crime?", "Yeah it was my Dad!", "What does he look like?", "Well, he has 2 eyes, a nose, and a mouth...","Oh wait, Daddy told me not to tell anyone..."};
 
     // Start is called before the first frame update
     void Start()

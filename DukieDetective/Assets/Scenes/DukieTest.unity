@@ -2842,11 +2842,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4970379168946438491, guid: c4ba070b7ddd09d4fb15adafb3c161fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.85
+      value: 59.55
       objectReference: {fileID: 0}
     - target: {fileID: 4970379168946438491, guid: c4ba070b7ddd09d4fb15adafb3c161fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.13
+      value: -12.56
       objectReference: {fileID: 0}
     - target: {fileID: 4970379168946438491, guid: c4ba070b7ddd09d4fb15adafb3c161fc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2862,11 +2862,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4970379168946438491, guid: c4ba070b7ddd09d4fb15adafb3c161fc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000002148127
+      value: 0.000000002148127
       objectReference: {fileID: 0}
     - target: {fileID: 4970379168946438491, guid: c4ba070b7ddd09d4fb15adafb3c161fc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.0713916e-10
+      value: 1.0713916e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4970379168946438491, guid: c4ba070b7ddd09d4fb15adafb3c161fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2914,11 +2914,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7746710862905573754, guid: c4ba070b7ddd09d4fb15adafb3c161fc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -4.4408916e-16
+      value: 4.4408916e-16
       objectReference: {fileID: 0}
     - target: {fileID: 7746710862905573754, guid: c4ba070b7ddd09d4fb15adafb3c161fc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -4.163336e-17
+      value: 4.163336e-17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6410,7 +6410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Name
+  m_text: Allastair
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa2bd23e3f70317479182935604b90fe, type: 2}
   m_sharedMaterial: {fileID: 5361553409190568129, guid: fa2bd23e3f70317479182935604b90fe, type: 2}
@@ -9617,6 +9617,7 @@ GameObject:
   - component: {fileID: 933757450}
   - component: {fileID: 933757447}
   - component: {fileID: 933757446}
+  - component: {fileID: 933757451}
   m_Layer: 0
   m_Name: suspect3
   m_TagString: Untagged
@@ -9745,7 +9746,7 @@ SpriteRenderer:
   m_SortingLayerID: -1019228135
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 981d945829aa8fc42bd8abd6cb6f27b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e7239111e9f60346a1a165a0ffadeee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9818,6 +9819,27 @@ MonoBehaviour:
   PlayerCapsule: {fileID: 1344353552}
   Camera: {fileID: 1055956461}
   TalkText: {fileID: 117885394}
+--- !u!95 &933757451
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933757445}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1769de3a18e03ff4fad89a2d8dcb359e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &937062046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -113771,7 +113793,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Peter
+  m_text: Yousef
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa2bd23e3f70317479182935604b90fe, type: 2}
   m_sharedMaterial: {fileID: 5361553409190568129, guid: fa2bd23e3f70317479182935604b90fe, type: 2}
@@ -115863,7 +115885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Peter
+  m_text: Bruno
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa2bd23e3f70317479182935604b90fe, type: 2}
   m_sharedMaterial: {fileID: 5361553409190568129, guid: fa2bd23e3f70317479182935604b90fe, type: 2}
@@ -116244,11 +116266,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3903200633145018960, guid: 2ed4d483a10c7974f9ffbfb302b5e9d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.85
+      value: 59.55
       objectReference: {fileID: 0}
     - target: {fileID: 3903200633145018960, guid: 2ed4d483a10c7974f9ffbfb302b5e9d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.13
+      value: -12.56
       objectReference: {fileID: 0}
     - target: {fileID: 3903200633145018960, guid: 2ed4d483a10c7974f9ffbfb302b5e9d8, type: 3}
       propertyPath: m_LocalPosition.z

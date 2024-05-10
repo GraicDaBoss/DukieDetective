@@ -10,7 +10,7 @@ public class BigBurt : MonoBehaviour
     private bool isInsideTrigger;
     public GameObject TalkPanel, PlayerCapsule, Camera;
     public TMP_Text TalkText;
-    private string[] dialogues = { "", "A murderer you say?", "Yeah I think I seen him.", "He was wearing a *blank*.", "Good luck finding him."};
+    private string[] dialogues = { "", "A murderer you say?", "Yeah I think I seen him.", "But all I remember is that he didn't have a bowl cut.", "Good luck finding him."};
 
     // Start is called before the first frame update
     void Start()
