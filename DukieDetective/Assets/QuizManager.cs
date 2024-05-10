@@ -41,7 +41,7 @@ public class QuizManager : MonoBehaviour
 
     public void Continue()
     {
-        SceneManager.LoadScene("Desk");
+        SceneManager.LoadScene("Ending");
     }
 
 
