@@ -7,6 +7,6 @@ public class Startbutton : MonoBehaviour
 {
     public void Continue()
     {
-        SceneManager.LoadScene("Desk");
+        SceneManager.LoadScene("Opening");
     }
 }
