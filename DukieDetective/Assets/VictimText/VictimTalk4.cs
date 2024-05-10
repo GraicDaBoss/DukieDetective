@@ -10,7 +10,7 @@ public class VictimTalk4 : MonoBehaviour
     private bool isInsideTrigger;
     public GameObject TalkPanel, PlayerCapsule, Camera;
     public TMP_Text TalkText;
-    private string[] dialogues = { "", "Did you see that footprint???", "God, these policemen are idiots...", "Anyways, In this room we have some sketches of potential culprits. Again labelled with names.", "First, take a look at the sketches inside on the desk", "Then speak to the witnesses to find out details about their appearance, and wittle down from there...", "Keep an eye on names, any common factors from the last piece of evidence?", "Good luck." };
+    private string[] dialogues = { "", "Did you see that footprint???", "God, these policemen are idiots...", "Anyways, to the right we have some sketches of potential culprits. Again labelled with names.", "First, take a look at the sketches inside on the desk", "Then speak to the witnesses to find out details about their appearance, and wittle down from there...", "Keep an eye on names, any common factors from the last piece of evidence?", "Good luck." };
 
     // Start is called before the first frame update
     void Start()

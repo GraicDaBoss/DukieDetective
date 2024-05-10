@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
 
-public class VictimTalk5 : MonoBehaviour
+public class LilJim : MonoBehaviour
 {
     public UnityEvent enteredTrigger, exitedTrigger;
     private bool isInsideTrigger;
     public GameObject TalkPanel, PlayerCapsule, Camera;
     public TMP_Text TalkText;
-    private string[] dialogues = { "", "Good job on reviewing those sketches", "Hope all this work pays off", "In this last chapter, you'll speak to the very suspects and hear their alibis", "It looks like there's no more footprints up ahead...", "Take notes on the details. What adds up, what doesn't?", "...", "This is the final stretch now, so keep all previous clues in mind.", "Good luck Hero!!." };
+    private string[] dialogues = { "", "Do I know who committed the crime?", "Yeah it was my Dad!", "What does he look like?", "Well, he has a *blank*","Oh wait, Daddy told me not to tell anyone..."};
 
     // Start is called before the first frame update
     void Start()
@@ -76,4 +76,3 @@ public class VictimTalk5 : MonoBehaviour
         }
     }
 }
-
